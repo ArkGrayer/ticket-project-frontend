@@ -1,0 +1,43 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": null
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": null
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": null
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": null
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+
+	// Enable Format On Save
+	"editor.formatOnSave": true,
+
+	// Add a vertical line on the 80 characters limit
+	"editor.rulers": [80],
+
+	// Define Tab Size = 2 Spaces (Half of the Default Size)
+	"editor.tabSize": 2,
+
+	// Disable Tab To Space Conversion
+	"editor.insertSpaces": false,
+
+	// Config Default End Of Line Formatting
+	"files.eol": "\n",
+
+	// Color of Comments
+	"editor.tokenColorCustomizations": {
+		"comments": "#00a0eb"
+	},
+	"cSpell.words": ["typeorm"],
+
+	"files.associations": {
+		".lintstagedrc": "json"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"root": true,
+	"extends": [
+		"@techmmunity/eslint-config/common", // The common module always should be extended!
+		"@techmmunity/eslint-config/ts-react"
+	],
+	"rules": {
+		"filenames/match-regex": "off",
+		"@typescript-eslint/naming-convention": "off",
+		"react/react-in-jsx-scope": "off",
+		"react-hooks/exhaustive-deps": "off"
+	}
+}
